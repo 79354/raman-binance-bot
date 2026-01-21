@@ -23,7 +23,7 @@ A production-grade CLI trading system for Binance USDT-M Futures with support fo
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.8 or higher
 - Binance Futures account (or testnet account)
@@ -31,7 +31,7 @@ A production-grade CLI trading system for Binance USDT-M Futures with support fo
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -57,14 +57,14 @@ BINANCE_SECRET_KEY=your_secret_key_here
 USE_TESTNET=True
 ```
 
-⚠️ **Important**: 
+ **Important**: 
 - Start with `USE_TESTNET=True` to test safely
 - Get testnet credentials from: https://testnet.binancefuture.com
 - Never commit `.env` to version control
 
 ---
 
-## 📖 Usage
+## Usage
 
 All commands should be run from the project root directory.
 
@@ -302,7 +302,7 @@ yourname-binance-bot/
 For issues or questions:
 - Check `bot.log` for detailed error messages
 - Review API documentation
-- Contact: [your-email@example.com]
+- Contact: gillramansingh900@gmail.com
 
 ---
 
