@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "binance-connector==3.0.0",
+    "binance-futures-connector",
     "python-dotenv==1.0.0",
     "pytest==7.4.3",
     "black==23.12.1",

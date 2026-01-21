@@ -12,17 +12,17 @@ wheels = [
 ]
 
 [[package]]
-name = "binance-connector"
-version = "3.0.0"
+name = "binance-futures-connector"
+version = "4.1.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pycryptodome" },
     { name = "requests" },
     { name = "websocket-client" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/03/bf/00d67c237ea7d0f13935f209f6cee0dd23bb75691bec6fd050367d8602e6/binance-connector-3.0.0.tar.gz", hash = "sha256:2c927573546412eaa74d11633b9a179911e9361cc7591dba2602bb75e9b3b5c3", size = 53089, upload-time = "2023-05-23T05:53:24.201Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/c8/1f/ac485b41a87844cdf6b8e8ade941dc45838606a10db21b656a999bd62bf1/binance-futures-connector-4.1.0.tar.gz", hash = "sha256:f6ac965dfe482ab31a36f8a06b226f730b4a660fffc5c97bdc8814d9333a11c0", size = 33450, upload-time = "2024-10-31T07:07:28.236Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/5b/8e/457f000aafd7648e4e7444e981268ce208c42c854c23de8e5bfbd9c8ceaf/binance_connector-3.0.0-py3-none-any.whl", hash = "sha256:88e4ef05ca002df51cada86e483a221e22d12ccc85d874372593ea35d6173497", size = 64138, upload-time = "2023-05-23T05:53:22.284Z" },
+    { url = "https://files.pythonhosted.org/packages/16/97/b49576e6b6e589c80968a8947b0737e0531aa8fb718aae1fdd0a660cff37/binance_futures_connector-4.1.0-py3-none-any.whl", hash = "sha256:ef1e45f4cd7f47f364837564fb83e02962d06c1612c0c1e8e706e4cd308405a6", size = 38274, upload-time = "2024-10-31T07:07:26.4Z" },
 ]
 
 [[package]]
@@ -80,7 +80,7 @@ name = "cli-trader"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
-    { name = "binance-connector" },
+    { name = "binance-futures-connector" },
     { name = "black" },
     { name = "pylint" },
     { name = "pytest" },
@@ -89,7 +89,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "binance-connector", specifier = "==3.0.0" },
+    { name = "binance-futures-connector" },
     { name = "black", specifier = "==23.12.1" },
     { name = "pylint", specifier = "==3.0.3" },
     { name = "pytest", specifier = "==7.4.3" },
